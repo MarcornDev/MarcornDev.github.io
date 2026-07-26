@@ -1,7 +1,6 @@
 # MarcornDev Portfolio
 
-A from-scratch redesign of the original MyFolio template — rebuilt in
-plain HTML, CSS and JavaScript (no Bootstrap, no jQuery, no plugins).
+A from-scratch design of my portfolio built in plain HTML, CSS and JavaScript (no Bootstrap, no jQuery, no plugins).
 
 ## Files
 - `index.html` — all page content and structure

@@ -527,8 +527,10 @@ p {
 /* ---------- Projects ---------- */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 28px;
+  max-width: 760px;
+  margin: 0 auto;
 }
 .project-card {
   background: var(--white);
@@ -633,6 +635,22 @@ p {
   display: flex;
   gap: 10px;
   margin-top: auto;
+}
+.project-links .btn {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-disabled {
+  background: var(--border);
+  color: var(--muted);
+  cursor: default;
+  pointer-events: none;
+}
+
+.thumb-icon-disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 
 /* ---------- Services ---------- */
